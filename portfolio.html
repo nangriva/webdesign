@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+	<title>Nancy Griva • Web design portfolio</title>
+	<link rel="stylesheet" type="text/css" media="all" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/swipebox.css">
+	<link rel="stylesheet" type="text/css" media="all" href="./css/style.css">
+	<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/jquery.swipebox.js"></script>
+</head>
+<body class="ta-center">
+	<div class="header col-xs-12 ta-center">
+		<h1><span class="hover-underline">Nancy Griva</span> <span class="xs-block">•</span> <span class="hover-underline">Web design projects</span></h1>
+		<h4 class="mt-50">Case studies in cooperation with <a href="https://www.converge.gr" target="_blank" class="hover-underline">Converge ICT</a></h4>
+	</div>
+	<div class="main-content col-xs-12 ta-center mt-50 f-none d-inline-block" style="max-width:1600px;">
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 dimello">
+			<h3>Dimello</h3>
+			<img src="img/th_dimello.png" alt="Dimello" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 achilleas">
+			<h3>Achilleas accessories</h3>
+			<img src="img/th_achilleas.jpg" alt="Achilleas" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 attrattivo">
+			<h3>Attrattivo</h3>
+			<img src="img/th_attrattivo.jpg" alt="attrattivo" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 nobacco">
+			<h3>Nobacco</h3>
+			<img src="img/th_nobacco.png" alt="Nobacco" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 kartsona">
+			<h3>Niki Kartsona</h3>
+			<img src="img/th_kartsona.jpg" alt="Niki Kartsona" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 attirelle">
+			<h3>Attirelle</h3>
+			<img src="img/th_attirelle.jpg" alt="attirelle" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 isapera">
+			<h3>isapera</h3>
+			<img src="img/th_isapera.jpg" alt="isapera" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 inart">
+			<h3>inart</h3>
+			<img src="img/th_inart.jpg" alt="inArt" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 vardas">
+			<h3>Vardas</h3>
+			<img src="img/th_vardas.jpg" alt="Vardas" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 ok">
+			<h3>ΟΛΓΑ ΚΕΦΑΛΟΓΙΑΝΝΗ</h3>
+			<img src="img/th_ok.jpg" alt="ΟΛΓΑ ΚΕΦΑΛΟΓΙΑΝΝΗ" class="col-xs-12 only">
+		</a>
+		<a href="javascript:void(0)" class="item col-xs-6 col-sm-4 col-lg-3 pharmaplus">
+			<h3>Pharmaplus</h3>
+			<img src="img/th_pharmaplus.jpg" alt="pharmaplus" class="col-xs-12 only">
+		</a>
+	</div>
+	<div class="footer col-xs-12 ta-center mt-50">
+		<h5>Nancy Griva web design portfolio 2018 • All product names and registered trademarks are property of their respective owners.</h5>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$( '.dimello' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/dimello-splash.jpg', title:'Dimello Splash screen' }, 
+					{ href:'img/screens/dimello_home.jpg', title:'Dimello Homepage' }, 
+					{ href:'img/screens/dimello-product_B2B.jpg', title:'Dimello product page' }
+				] );
+			} );
+
+			$( '.achilleas' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/achilleas-home.jpg', title:'Achilleas Homepage' }, 
+					{ href:'img/screens/achilleas-product.jpg', title:'Achilleas product page' },
+					{ href:'img/screens/achilleas-list.jpg', title:'Achilleas Category' },
+					{ href:'img/screens/achilleas-history.jpg', title:'Achilleas History' },
+					{ href:'img/screens/achilleas-stories.jpg', title:'Achilleas Stories' }
+				] );
+			} );
+
+			$( '.attrattivo' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/attrattivo_home.jpg', title:'Attrattivo Homepage' }, 
+					{ href:'img/screens/attrattivo_product.jpg', title:'Attrattivo product page' },
+					{ href:'img/screens/attrattivo_list.jpg', title:'Attrattivo Category' }
+				] );
+			} );
+
+			$( '.nobacco' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/nobacco_home.jpg', title:'Nobacco Homepage' }, 
+					{ href:'img/screens/nobacco_product.jpg', title:'Nobacco product page' },
+					{ href:'img/screens/nobacco_list.jpg', title:'Nobacco Category' }
+				] );
+			} );
+
+			$( '.kartsona' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/kartsona_home.jpg', title:'Niki Kartsona Homepage v1' },
+					{ href:'img/screens/kartsona_home3c.jpg', title:'Niki Kartsona Homepage v2' }, 
+					{ href:'img/screens/kartsona_home4.jpg', title:'Niki Kartsona Homepage v3' }, 
+					{ href:'img/screens/kartsona_product.jpg', title:'Niki Kartsona product page' },
+					{ href:'img/screens/kartsona_list.jpg', title:'Niki Kartsona Category' }
+				] );
+			} );
+
+			$( '.attirelle' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/attirelle_home1.jpg', title:'Attirelle Homepage v1' },
+					{ href:'img/screens/attirelle_home2.jpg', title:'Attirelle Homepage v2' },
+					{ href:'img/screens/attirelle_product.jpg', title:'Attirelle product page' },
+					{ href:'img/screens/attirelle_list.jpg', title:'Attirelle Category' }
+				] );
+			} );
+
+			$( '.isapera' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/isapera_home.jpg', title:'isapera Homepage' },
+					{ href:'img/screens/isapera_product.png', title:'isapera product page' },
+					{ href:'img/screens/isapera_list.jpg', title:'isapera Category' }
+				] );
+			} );
+
+			$( '.inart' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/inart_home.jpg', title:'inArt Homepage' },
+					{ href:'img/screens/inart_product.jpg', title:'inArt product page' },
+					{ href:'img/screens/inart_list_5rows.png', title:'inArt Category 5 items with sidebar' },
+					{ href:'img/screens/inart_list_3rows_full.png', title:'inArt Category 3 items without sidebar' }
+				] );
+			} );
+
+			$( '.vardas' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/vardas-home.jpg', title:'Vardas Homepage' },
+					{ href:'img/screens/vardas-product.jpg', title:'Vardas product page' },
+					{ href:'img/screens/vardas-list.jpg', title:'Vardas Category' },
+					{ href:'img/screens/vardas-men.jpg', title:'Vardas Men' },
+					{ href:'img/screens/vardas-checkout_login.png', title:'Vardas checkout login' },
+					{ href:'img/screens/vardas-m_home.jpg', title:'Vardas Mobile Homepage' },
+					{ href:'img/screens/vardas-m_aboutus.png', title:'Vardas Mobile About us' },
+					{ href:'img/screens/vardas-m_product.png', title:'Vardas Mobile product' },
+					{ href:'img/screens/vardas-m_sidebar.png', title:'Vardas Mobile menu' }
+				] );
+			} );
+
+			$( '.ok' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/OK_home.jpg', title:'Olga Kefalogianni Homepage' },
+					{ href:'img/screens/OK_home_hover.jpg', title:'Olga Kefalogianni Homepage' },
+					{ href:'img/screens/OK-blog.jpg', title:'Olga Kefalogianni Blog' },
+					{ href:'img/screens/OK-politics.jpg', title:'Olga Kefalogianni Politics' }
+				] );
+			} );
+
+			$( '.pharmaplus' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href:'img/screens/pharmaplus-1_login.png', title:'Pharmaplus login' },
+					{ href:'img/screens/pharmaplus-2_register.png', title:'Pharmaplus register' },
+					{ href:'img/screens/pharmaplus-3_home.png', title:'Pharmaplus homepage' },
+					{ href:'img/screens/pharmaplus-4_sidebar.png', title:'Pharmaplus menu sidebar' },
+					{ href:'img/screens/pharmaplus-5_sidebar_profile.png', title:'Pharmaplus profile' },
+					{ href:'img/screens/pharmaplus-6_points.png', title:'Pharmaplus my points' },
+					{ href:'img/screens/pharmaplus-7_rewards.png', title:'Pharmaplus rewards' },
+					{ href:'img/screens/pharmaplus-8_QRpoints.png', title:'Pharmaplus QR points' },
+					{ href:'img/screens/pharmaplus-9_QRscan.png', title:'Pharmaplus QR scan' },
+					{ href:'img/screens/pharmaplus-10_Check-in.png', title:'Pharmaplus check-in' }
+				] );
+			} );
+
+		});
+	</script>
+</body>
+<html>
